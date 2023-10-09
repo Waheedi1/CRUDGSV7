@@ -1,7 +1,7 @@
 function doGet(e){
   
   var op = e.parameter.action;
-  var ss=SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1o6rVfwozX7h9-6rlQVsKFa1cTYFFXlMo_LjePZ-QJjQ/edit?usp=sharing");//////////////
+  var ss=SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/19M8ETvjNu6o9p6671lRAWgrKmMKU-H-2k7Wp-3kaOgs/edit?usp=sharing");//////////////
   var sheet = ss.getSheetByName("DATA");
  
   if(op=="insert")
